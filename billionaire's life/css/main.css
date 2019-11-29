@@ -1,0 +1,99 @@
+body{
+			background-color: bisque;
+		}
+		.count{
+			
+		}
+		#headPart{
+			height: 30%;
+			width: 100%;
+			text-align: center;
+			position: position;
+			
+		}
+		.head{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			overflow: hidden;
+			transition: transform 2s;
+		}
+		.head:hover{
+			/* 2为播放次数 */
+			/* animation:动画名称 持续时间 速率曲线 播放次数 */
+			/* animation: rotateAni 2s ease 1; */
+			/* linear 动画从头到尾的速度是相同的。
+			ease 默认。动画以低速开始，然后加快，在结束前变慢。
+			ease-in 动画以低速开始。
+			ease-out 动画以低速结束。
+			ease-in-out 动画以低速开始和结束。 */
+			transform: rotate(360deg); 
+		}
+		p{
+			display: inline-block;
+			
+		}
+		
+		#Separator{
+			height: 1px;
+			width: 90%;
+			background-color: black;
+			/* 父级默认为static（body）  除非为父级设定position属性 */
+			/* 设置父级position后  本元素相对于父级移动 */
+			/* 不设置父级 本元素相对于body移动 */
+			position: absolute;
+			left: 5%;
+			
+		}
+		#CHECKBOX{
+			height: 42px;
+		}
+		.layui-form-onswitch,.layui-form-switch{
+			margin-bottom: 10px;
+			position: absolute;
+			right: 17%;
+		}
+		/* @keyframes rotateAni{
+			from{transform: rotate(0deg);}
+			to{transform: rotate(360deg);}
+		} */
+		#goodsPart{
+			width: 100%;
+			padding-top: 10px;
+			height: auto;
+		}
+		.col-md-3{
+			/* border: #000000 1px solid; */
+			height: 320px;
+		}
+		.goodsPic{
+			width: 100%;
+			height: 100%;
+		}
+		.goodsName{
+			font-size: 22px;
+		}
+		.price{
+			font-size: 16px;
+			color: orangered;
+		}
+		.footPart{
+			border-top: #000000 1px solid;
+			hieght:100px;
+			width: 100%;
+			text-align: center;
+		}
+		.notice{
+			position: fixed;
+			z-index: 1;
+			background-color: #FD7E14;
+			top: 100px;
+			height: 40px;
+		}
+		#TCOYM{
+			line-height: 40px;
+		}
+		a{
+			color: #545B62;
+			text-decoration: underline;
+		}
